@@ -2,11 +2,16 @@
 
 ## Project setup
 ```
-npm install noFocusSearch
+npm install no-focus-search
 ```
 
 ### How to use
 ```
+<!-- main.js -->
+import noFocusSearch from 'no-focus-search'
+import 'no-focus-search/dist/no-focus-search.css'
+Vue.use(noFocusSearch)
+<!-- app.vue文件 -->
 <template>
   <div>
     <noFocusSearch
@@ -17,11 +22,8 @@ npm install noFocusSearch
     />
 </template>
 <script>
-import noFocusSearch from 'noFocusSearch';
+
 export default {
-  components: {
-    noFocusSearch
-  },
   data() {
     return {
       dataList: [

@@ -1,8 +1,10 @@
 {
   "name": "no-focus-search",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "private": false,
   "author": "darren-ma",
+  "main": "./dist/no-focus-search.umd.js",
+  "keyword": "search focus",
   "repository": {
     "type": "git",
     "url": "https://github.com/darren-mmy/no-focus-search"
@@ -14,7 +16,7 @@
     "serve": "vue-cli-service serve",
     "build:qa": "vue-cli-service build --mode qa",
     "build:beta": "vue-cli-service build --mode beta",
-    "build:noFocusSearch": "vue-cli-service build --target lib --name no-focus-search src/index.js"
+    "build:noFocusSearch": "vue-cli-service build --target lib --name no-focus-search ./packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
