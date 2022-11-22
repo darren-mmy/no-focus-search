@@ -1,0 +1,41 @@
+{
+  "name": "no-focus-search",
+  "version": "1.0.0",
+  "private": false,
+  "author": "darren-ma",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darren-mmy/no-focus-search"
+  },
+  "bugs": {
+    "url": "https://github.com/darren-mmy/no-focus-search/issues"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build:qa": "vue-cli-service build --mode qa",
+    "build:beta": "vue-cli-service build --mode beta",
+    "build:noFocusSearch": "vue-cli-service build --target lib --name no-focus-search src/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "js-cookie": "^3.0.1",
+    "vue": "^2.6.14",
+    "vue-grid-layout": "^2.4.0",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
